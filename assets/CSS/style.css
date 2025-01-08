@@ -17,7 +17,7 @@
         .row.singleLine {
 	        align-items: center;
             margin-bottom: 30px;
-            padding: 30px 30px 0 30px;
+            padding: 30px;
             background-color: rgb(35, 35, 35) !important;
         }
         .secHead h1{
@@ -25,9 +25,6 @@
             padding: 80px 0 30px 0;
             letter-spacing: 1px;
             font-weight: 200;
-        }
-        .productImg img{
-            width: 100% !important;
         }
         .priceSec{
             width: 100%;
@@ -50,4 +47,14 @@
             font-size: 1.5rem;
             line-height: 0.5;
         }
+        .singleLine .col-md-3 {
+            border: 2px solid #535353;
+            border-radius: 10px;
+        }
+        .productImg img{
+            width: 150px !important;
+            margin: auto !important;
+            display: block !important;
+        }
+
    

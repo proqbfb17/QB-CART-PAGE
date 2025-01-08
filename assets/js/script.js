@@ -18,6 +18,7 @@ function handleItemChangeFunction(item, isIncrease){
         itemTotal = newitemCount * 900;
     }
     document.getElementById(item +'-total').innerText = itemTotal;
+    handleFunctionCheckout();
 }
 
 function handleFunctionCheckout(){
@@ -29,6 +30,9 @@ function handleFunctionCheckout(){
     document.getElementById('total-price').innerText = totalPrice;
 
     const tax = totalPrice * 0.1;
+    document.getElementById('tax-total').innerText = tax;
+    const grandTotal = totalPrice + tax;
+    document.getElementById('grand-total').innerText = grandTotal;
 
 }
 
