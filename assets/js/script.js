@@ -36,6 +36,11 @@ function handleFunctionCheckout(){
 
 }
 
+function checkOutFunc(){
+    console.log("Thnaks! This is for the console!");
+    alert('Thanks for purchase!');
+}
+
 
 
 
